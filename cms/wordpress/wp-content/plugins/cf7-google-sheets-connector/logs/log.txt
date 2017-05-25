@@ -1,0 +1,31 @@
+18 Mei 2017 12:42:38 	 PHP 7.0.10Array
+(
+    [date] => 18 Mei 2017 12:42:35
+    [your-surname] => Dwiezel
+    [your-firstname] => Test
+    [your-email] => qsdqs@qsdq.com
+    [your-subject] => Dit is een test
+    [your-message] => Hello, dit is een test 18 mei
+    [ERROR_MSG] => Error in Google Request
+    [TRACE_STK] => #0 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/DefaultServiceRequest.php(146): Google\Spreadsheet\DefaultServiceRequest->execute(Resource id #326)
+#1 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/ListFeed.php(78): Google\Spreadsheet\DefaultServiceRequest->post('https://spreads...', '<entry xmlns="h...')
+#2 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/cf7-google-sheets-connector/lib/google-sheets.php(80): Google\Spreadsheet\ListFeed->insert(Array)
+#3 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(110): CF7GSC_googlesheet->add_row(Array)
+#4 /Applications/MAMP/htdocs/examen/wordpress/wp-includes/class-wp-hook.php(298): Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#5 /Applications/MAMP/htdocs/examen/wordpress/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#6 /Applications/MAMP/htdocs/examen/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/contact-form-7/includes/submission.php(162): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#8 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/contact-form-7/includes/submission.php(28): WPCF7_Submission->submit()
+#9 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/contact-form-7/includes/contact-form.php(647): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm))
+#10 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/contact-form-7/includes/controller.php(58): WPCF7_ContactForm->submit(true)
+#11 /Applications/MAMP/htdocs/examen/wordpress/wp-content/plugins/contact-form-7/includes/controller.php(18): wpcf7_ajax_json_echo()
+#12 /Applications/MAMP/htdocs/examen/wordpress/wp-includes/class-wp-hook.php(298): wpcf7_control_init('')
+#13 /Applications/MAMP/htdocs/examen/wordpress/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#14 /Applications/MAMP/htdocs/examen/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#15 /Applications/MAMP/htdocs/examen/wordpress/wp-settings.php(470): do_action('wp_loaded')
+#16 /Applications/MAMP/htdocs/examen/wordpress/wp-config.php(89): require_once('/Applications/M...')
+#17 /Applications/MAMP/htdocs/examen/wordpress/wp-load.php(37): require_once('/Applications/M...')
+#18 /Applications/MAMP/htdocs/examen/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#19 /Applications/MAMP/htdocs/examen/wordpress/index.php(17): require('/Applications/M...')
+#20 {main}
+)

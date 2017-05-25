@@ -1,0 +1,361 @@
+/*
+Theme Name: woohoochocolade
+Theme URI: /
+Description: chocolade is lekker
+Version: 1.0
+Author: Dwiezel en Jonas
+Author URI: /
+Tags: chocolade, lekker, stevia, witte is de lekkerste, Jonas houdt van zwarten
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+.navbar-default {
+    background-color: rgba(123, 24,30,0.7);
+}
+.navbar {
+    border-radius: 0px;
+    border: 0px;
+}
+.header{
+    padding-right:0px;
+    padding-left:0px;
+    padding-bottom: 20px;
+}
+.container-fluid{
+    padding: 0px;
+    background-color: #333;
+}
+
+/*footer*/
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  padding-top: 20px;
+}
+.bottom {
+    margin-bottom: -20px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.footer_nav{
+    height: 100px;
+}
+footer>div>div>div>ul>li>a{
+    color: rgba(224,189,163,1);
+}
+footer>div>div>div>ul>li>a:hover{
+    color: rgba(224,189,163,1);
+    text-decoration: underline;;
+}
+#disclaimer, #privacypolicy{
+    color:#333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#disclaimer:hover{
+    text-decoration: underline;
+}
+/*sidebar*/
+#wrapper {
+  padding-left: 50px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-right: -200px;
+  right: 250px;
+  width: 200px;
+  background: #333;
+  position: absolute;
+  height: 50%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+  border-radius: 20px 20px 20px 0px;
+}
+.sidebar-content>p{
+    color: whitesmoke;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+.sidebar-content {
+  position: absolute;
+  top: 0;
+  width: 195;
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+@media (max-width:767px) {
+    #wrapper {
+      padding-right: 0;
+    }
+    #sidebar-wrapper {
+      right: 0;
+    }
+    #wrapper.active {
+      position: absolute;
+      right: 250px;
+    }
+    #wrapper.active #sidebar-wrapper {
+      right: 200px;
+      width: 250px;
+      transition: all 0.4s ease 0s;
+    }
+}
+
+/*WP-STIJLEN*/
+p{
+    color:black;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Baloo', cursive;
+    color: #333;
+}
+
+/*CSS NA INSTALLATIE WP*/
+#menu-main_nl{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+#menu-main_nl>li{
+    float: left;
+}
+#menu-main_nl>li>a{
+    display: block;
+    padding: 20px;
+    color: rgba(208, 139, 109,1);
+    font-family: 'baloo', cursive;
+    font-size: 2rem;
+}
+#menu-main_nl>li>a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+.current_page_item{
+    background-color: #111;
+}
+/*Footer Menu*/
+#menu-footermenu_nl{
+    display:table;
+    margin: 0 auto;
+}
+#menu-footermenu_nl>li{
+    float: left;
+}
+#menu-footermenu_nl>li>a{
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgba(208, 139, 109,1);
+    font-family: 'baloo', cursive;
+    font-size: 1.5rem;
+}
+#menu-footermenu_nl>li>a:hover {
+    border-radius: 15px;
+    border: 3px solid transparent;
+    text-decoration: none;
+}
+
+/* Social Media Menu*/
+#menu-socialmedia_nl{
+    display:table;
+    margin: 0 auto;
+}
+#menu-socialmedia_nl>li{
+    Float: left;
+}
+#menu-socialmedia_nl>li>a{
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgba(224,189,163,1);
+    font-family: 'baloo', cursive;
+    font-size: 1.5rem;
+}
+#menu-socialmedia_nl>li>a:hover {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+
+/*sidebar*/
+#wrapper {
+  padding-left: 50px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-right: -200px;
+  right: 250px;
+  width: 200px;
+  background: #333;
+  position: absolute;
+  height: 50%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+  border-radius: 20px 20px 20px 0px;
+}
+.sidebar-content>p{
+    color: whitesmoke;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+.sidebar-content {
+  position: absolute;
+  top: 0;
+  width: 195;
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+@media (max-width:767px) {
+    #wrapper {
+      padding-right: 0;
+    }
+    #sidebar-wrapper {
+      right: 0;
+    }
+    #wrapper.active {
+      position: absolute;
+      right: 250px;
+    }
+    #wrapper.active #sidebar-wrapper {
+      right: 200px;
+      width: 250px;
+      transition: all 0.4s ease 0s;
+    }
+}
+/*unorderd list*/
+.siteorigin-widget-tinymce, .textwidget>ol{
+    list-style: circle;
+}
+.img_logo>a>img {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: auto;
+    padding-top: 20px;
+}
+/*Partials*/
+.sub-title>h1{
+    color: white;
+    text-transform: capitalize;
+}
+.recepten_item-tekst>p{
+    color: white;
+}
+.recepten_item-tekst>ol>li{
+    color: white;
+}
+.recepten_item-tekst{
+    background-color: rgba(123, 24,30,0.7);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.error_bg{
+    background-color: #333;
+    height: 90vh;
+    background-image: url(content/images/error_page.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*Blog*/
+.blog_item{
+    background-color: none;
+    border: 1px solid #333;
+    margin-bottom:20px;
+    padding: 5px 5px 0px 5px
+}
+.blog_item>p>a{
+    text-decoration: none;
+    color: rgba(224,189,163,1);
+    font-family: 'baloo', cursive;
+    font-size: 1.6rem;
+}
+.blog_item>p>a:hover{
+    color: #333;
+}
+.blog_datum{
+    font-style: italic;
+}
+.blog_auteur{
+    font-style: italic;
+}
+.blog_bericht{
+    background-color: rgba(224,189,163,1);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 0px 10px 0px 0px;
+}
+.post-categories{
+    display: block;
+    float: right;
+}
+.post-categories>li>a{
+    color: rgba(208, 139, 109,1);
+}
+/*sidebar*/
+.widgettitle{
+    color: #fff;
+    font-size: 1.3rem;
+    padding:0px;
+    margin-top:20px;
+}
+
+#recent-posts-4>ul>li>a{
+    text-decoration: none;
+    color: rgba(224,189,163,1);
+    
+}
+select, input[type="color" i][list] {
+    color: rgba(208, 139, 109,1);
+}
+/*single page blog*/
+.blog_text>p{
+    color:#333;
+    border: 1px solid rgba(208, 139, 109,1);
+    padding: 10px;
+}
+#search-3{
+    list-style: none;
+    padding-bottom: 20px;
+}
+#search-3>h2{
+    color:rgba(208, 139, 109,1);
+    font-size: 2rem;
+}
+/*comments*/
+.form-submit{
+    color: rgba(208, 139, 109,1);
+}
+.textwidget>a{
+    color: rgba(208, 139, 109,1);
+}
+#text-2{
+    list-style: none;
+    text-align: center;
+    font-family: 'baloo', cursive;
+}
