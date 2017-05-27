@@ -16,6 +16,6 @@
 - git remote add origin master
 - git add .
 - git status
-- git commit "_tekst_"
+- git commit -m "_tekst_"
 - git push -u origin master
 
